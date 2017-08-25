@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554411E91F502C5800CBDD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554411E81F502C5800CBDD5D /* AppDelegate.swift */; };
+		554411EB1F502C5800CBDD5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554411EA1F502C5800CBDD5D /* ViewController.swift */; };
+		554411EE1F502C5800CBDD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554411EC1F502C5800CBDD5D /* Main.storyboard */; };
+		554411F01F502C5800CBDD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554411EF1F502C5800CBDD5D /* Assets.xcassets */; };
+		554411F31F502C5800CBDD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554411F11F502C5800CBDD5D /* LaunchScreen.storyboard */; };
+		554411FE1F502C5800CBDD5D /* LocalizeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554411FD1F502C5800CBDD5D /* LocalizeMeTests.swift */; };
+		554412091F502C5800CBDD5D /* LocalizeMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554412081F502C5800CBDD5D /* LocalizeMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		554411FA1F502C5800CBDD5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 554411DD1F502C5800CBDD5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554411E41F502C5800CBDD5D;
+			remoteInfo = LocalizeMe;
+		};
+		554412051F502C5800CBDD5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 554411DD1F502C5800CBDD5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554411E41F502C5800CBDD5D;
+			remoteInfo = LocalizeMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		554411E51F502C5800CBDD5D /* LocalizeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		554411E81F502C5800CBDD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		554411EA1F502C5800CBDD5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		554411ED1F502C5800CBDD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		554411EF1F502C5800CBDD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		554411F21F502C5800CBDD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		554411F41F502C5800CBDD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554411F91F502C5800CBDD5D /* LocalizeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554411FD1F502C5800CBDD5D /* LocalizeMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeMeTests.swift; sourceTree = "<group>"; };
+		554411FF1F502C5800CBDD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554412041F502C5800CBDD5D /* LocalizeMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizeMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554412081F502C5800CBDD5D /* LocalizeMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeMeUITests.swift; sourceTree = "<group>"; };
+		5544120A1F502C5800CBDD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554411E21F502C5800CBDD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554411F61F502C5800CBDD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554412011F502C5800CBDD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554411DC1F502C5800CBDD5D = {
+			isa = PBXGroup;
+			children = (
+				554411E71F502C5800CBDD5D /* LocalizeMe */,
+				554411FC1F502C5800CBDD5D /* LocalizeMeTests */,
+				554412071F502C5800CBDD5D /* LocalizeMeUITests */,
+				554411E61F502C5800CBDD5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		554411E61F502C5800CBDD5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554411E51F502C5800CBDD5D /* LocalizeMe.app */,
+				554411F91F502C5800CBDD5D /* LocalizeMeTests.xctest */,
+				554412041F502C5800CBDD5D /* LocalizeMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554411E71F502C5800CBDD5D /* LocalizeMe */ = {
+			isa = PBXGroup;
+			children = (
+				554411E81F502C5800CBDD5D /* AppDelegate.swift */,
+				554411EA1F502C5800CBDD5D /* ViewController.swift */,
+				554411EC1F502C5800CBDD5D /* Main.storyboard */,
+				554411EF1F502C5800CBDD5D /* Assets.xcassets */,
+				554411F11F502C5800CBDD5D /* LaunchScreen.storyboard */,
+				554411F41F502C5800CBDD5D /* Info.plist */,
+			);
+			path = LocalizeMe;
+			sourceTree = "<group>";
+		};
+		554411FC1F502C5800CBDD5D /* LocalizeMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				554411FD1F502C5800CBDD5D /* LocalizeMeTests.swift */,
+				554411FF1F502C5800CBDD5D /* Info.plist */,
+			);
+			path = LocalizeMeTests;
+			sourceTree = "<group>";
+		};
+		554412071F502C5800CBDD5D /* LocalizeMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				554412081F502C5800CBDD5D /* LocalizeMeUITests.swift */,
+				5544120A1F502C5800CBDD5D /* Info.plist */,
+			);
+			path = LocalizeMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554411E41F502C5800CBDD5D /* LocalizeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5544120D1F502C5800CBDD5D /* Build configuration list for PBXNativeTarget "LocalizeMe" */;
+			buildPhases = (
+				554411E11F502C5800CBDD5D /* Sources */,
+				554411E21F502C5800CBDD5D /* Frameworks */,
+				554411E31F502C5800CBDD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizeMe;
+			productName = LocalizeMe;
+			productReference = 554411E51F502C5800CBDD5D /* LocalizeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		554411F81F502C5800CBDD5D /* LocalizeMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554412101F502C5800CBDD5D /* Build configuration list for PBXNativeTarget "LocalizeMeTests" */;
+			buildPhases = (
+				554411F51F502C5800CBDD5D /* Sources */,
+				554411F61F502C5800CBDD5D /* Frameworks */,
+				554411F71F502C5800CBDD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554411FB1F502C5800CBDD5D /* PBXTargetDependency */,
+			);
+			name = LocalizeMeTests;
+			productName = LocalizeMeTests;
+			productReference = 554411F91F502C5800CBDD5D /* LocalizeMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		554412031F502C5800CBDD5D /* LocalizeMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554412131F502C5800CBDD5D /* Build configuration list for PBXNativeTarget "LocalizeMeUITests" */;
+			buildPhases = (
+				554412001F502C5800CBDD5D /* Sources */,
+				554412011F502C5800CBDD5D /* Frameworks */,
+				554412021F502C5800CBDD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554412061F502C5800CBDD5D /* PBXTargetDependency */,
+			);
+			name = LocalizeMeUITests;
+			productName = LocalizeMeUITests;
+			productReference = 554412041F502C5800CBDD5D /* LocalizeMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554411DD1F502C5800CBDD5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vladimir Rybalka";
+				TargetAttributes = {
+					554411E41F502C5800CBDD5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					554411F81F502C5800CBDD5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 554411E41F502C5800CBDD5D;
+					};
+					554412031F502C5800CBDD5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 554411E41F502C5800CBDD5D;
+					};
+				};
+			};
+			buildConfigurationList = 554411E01F502C5800CBDD5D /* Build configuration list for PBXProject "LocalizeMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 554411DC1F502C5800CBDD5D;
+			productRefGroup = 554411E61F502C5800CBDD5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554411E41F502C5800CBDD5D /* LocalizeMe */,
+				554411F81F502C5800CBDD5D /* LocalizeMeTests */,
+				554412031F502C5800CBDD5D /* LocalizeMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554411E31F502C5800CBDD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554411F31F502C5800CBDD5D /* LaunchScreen.storyboard in Resources */,
+				554411F01F502C5800CBDD5D /* Assets.xcassets in Resources */,
+				554411EE1F502C5800CBDD5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554411F71F502C5800CBDD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554412021F502C5800CBDD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554411E11F502C5800CBDD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554411EB1F502C5800CBDD5D /* ViewController.swift in Sources */,
+				554411E91F502C5800CBDD5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554411F51F502C5800CBDD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554411FE1F502C5800CBDD5D /* LocalizeMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554412001F502C5800CBDD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554412091F502C5800CBDD5D /* LocalizeMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		554411FB1F502C5800CBDD5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554411E41F502C5800CBDD5D /* LocalizeMe */;
+			targetProxy = 554411FA1F502C5800CBDD5D /* PBXContainerItemProxy */;
+		};
+		554412061F502C5800CBDD5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554411E41F502C5800CBDD5D /* LocalizeMe */;
+			targetProxy = 554412051F502C5800CBDD5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		554411EC1F502C5800CBDD5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554411ED1F502C5800CBDD5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		554411F11F502C5800CBDD5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554411F21F502C5800CBDD5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5544120B1F502C5800CBDD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5544120C1F502C5800CBDD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5544120E1F502C5800CBDD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocalizeMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.initium.LocalizeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5544120F1F502C5800CBDD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocalizeMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.initium.LocalizeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		554412111F502C5800CBDD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocalizeMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.initium.LocalizeMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalizeMe.app/LocalizeMe";
+			};
+			name = Debug;
+		};
+		554412121F502C5800CBDD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocalizeMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.initium.LocalizeMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalizeMe.app/LocalizeMe";
+			};
+			name = Release;
+		};
+		554412141F502C5800CBDD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LocalizeMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.initium.LocalizeMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LocalizeMe;
+			};
+			name = Debug;
+		};
+		554412151F502C5800CBDD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LocalizeMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.initium.LocalizeMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LocalizeMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554411E01F502C5800CBDD5D /* Build configuration list for PBXProject "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5544120B1F502C5800CBDD5D /* Debug */,
+				5544120C1F502C5800CBDD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5544120D1F502C5800CBDD5D /* Build configuration list for PBXNativeTarget "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5544120E1F502C5800CBDD5D /* Debug */,
+				5544120F1F502C5800CBDD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		554412101F502C5800CBDD5D /* Build configuration list for PBXNativeTarget "LocalizeMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554412111F502C5800CBDD5D /* Debug */,
+				554412121F502C5800CBDD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		554412131F502C5800CBDD5D /* Build configuration list for PBXNativeTarget "LocalizeMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554412141F502C5800CBDD5D /* Debug */,
+				554412151F502C5800CBDD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 554411DD1F502C5800CBDD5D /* Project object */;
+}
